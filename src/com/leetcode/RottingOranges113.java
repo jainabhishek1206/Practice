@@ -26,7 +26,7 @@
         1 <= m, n <= 10
         grid[i][j] is 0, 1, or 2.*/
 
-        package com.leetcode;
+package com.leetcode;
 
 import java.util.LinkedList;
 import java.util.Queue;
