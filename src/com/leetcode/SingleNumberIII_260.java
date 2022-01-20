@@ -34,8 +34,10 @@ public class SingleNumberIII_260 {
         for(int i : nums) {
             diff ^= i;
         }
+        System.out.println("diff is "+diff);
         int ans[] = new int[2];
         int elementWithLowestBitSet = Integer.lowestOneBit(diff);
+        System.out.println("elementWithLowestBitSet is "+elementWithLowestBitSet);
         for(int i : nums) {
             if((elementWithLowestBitSet & i) == 0) {
                 ans[0] ^= i;
