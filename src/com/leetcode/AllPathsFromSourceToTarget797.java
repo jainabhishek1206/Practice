@@ -18,6 +18,6 @@ public class AllPathsFromSourceToTarget797 {
     }
 
     private void allPathsFromNode(int sourceNode,List<Integer> list) {
-        if()
+//        if()
     }
 }
